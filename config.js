@@ -17,7 +17,7 @@ window.SITE_CONFIG = {
   marca: {
     nome: "Barato Viagens",
     // Caminho da logo (ex.: "assets/img/logo.svg"). Vazio = mostra o nome em texto.
-    logo: "assets/img/logo-sm.webp",
+    logo: "assets/img/logo-transparente.webp",
     // Cores principais. Troque aqui para adaptar à identidade da logo.
     cores: {
       azul: "#004A9E",       // azul da logo (fundos e títulos)
