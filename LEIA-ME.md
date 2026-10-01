@@ -33,10 +33,17 @@ python3 -m http.server 8765
 
 e acesse http://localhost:8765 (ou http://localhost:8765/?exemplo=1 para ver com dados de exemplo).
 
-## Publicar
+## Publicação (GitHub Pages)
 
-Envie **somente a pasta `site/`** para a hospedagem (Netlify, Vercel, Hostinger, GitHub Pages etc.).
-Não publique a pasta-mãe `BARATO VIAGENS`: ela contém documentos pessoais e da empresa.
+- Repositório: https://github.com/pgpvieira-code/barato-viagens-site (público; só contém os arquivos do site)
+- Domínio: baratoviagens.com (DNS na Namecheap: 4 registros A para 185.199.108-111.153 e CNAME `www` para `pgpvieira-code.github.io`)
+- Para atualizar o site: edite os arquivos desta pasta e rode
+
+```
+git add -A && git commit -m "Atualiza site" && git push
+```
+
+O GitHub publica em 1 a 2 minutos. Não coloque documentos pessoais nesta pasta: tudo aqui fica público.
 
 ## Créditos das fotos
 
